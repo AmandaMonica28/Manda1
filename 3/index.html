@@ -1,0 +1,54 @@
+NIM : 1922500162<br>
+Nama : Amanda Monica<br>
+Kelompok : SI5A<br>
+<br>
+
+<body bgcolor="#00FFFF">
+  <b>cara memindahkan bahan pert 2 untuk melanjutkan pert 3</b>
+  <ol type='a'>
+    <li>jalankan XAMPP apache n mysql</li>
+    <li>download hasil pert 2 dari telegram</li>
+    <li>buat folder baru</li>
+    <li>kemudian ekstrak file pert 2</li>
+    <li>buka folder XAMPP lalu buka htdocs</li>
+    <li>lalu edit nama file, tidak boleh sama dengan file sebelumnya</li>
+    <li>file SQL buka dengan Sublime atau Notepad++</li>
+    <li>lalu Ctrl+F dan ketik localhost/si5a</li>
+    <li>kemudian blok localhost/si5a2122o</li>
+    <li>lalu Ctrl+H lalu ganti dengan nama file yang sudah di edit (localhost/si5aa2122o)</li>
+    <li>klik replace all</li>
+    <li>kemudian di save</li>
+    <li>kemudian import data dengan cara klik admin pada XAMPP MySQL dan klik import</li>
+    <li>lalu choose file (SQL) dan klik go</li>
+    <li>balik ke sublime, create database diganti dbsi5aa2122o(Ctrl+C, Ctrl+H,Ctrl+V)</li>
+    <li>kemudian replace all dan di save</li>
+    <li>cari file si5aa2122o kemudian buka wp-config.php (sublime)</li>
+    <li>cari db nimnya, rubah dengan db_si5aa2122o</li>
+    <li>buka localhost/si5aa2122o</li>
+  </ol>
+  
+  <b>Ada kaitannya dengan UTS (Posting) :</b>
+  <ul type='disc'>
+    <li>tambah postingan baru (post lalu tambah baru)</li>
+    <li>kemudian tambahkan judul</li>
+    <li>tulisan bisa di bold, di kasih link, dst ( namanya editor blog secara visual)</li>
+    <a href="artis.png" target="_blank"><img src="artis.png" width="300px" height="150px"></a>
+  </ul>
+
+  <b>cara menambahkan rata kiri kanan :</b>
+  <ul type='disc'>
+    <li>ubah tulisan ke mode HTML</li>
+    <li>class diganti dengan align="justify"</li>
+  </ul>
+
+  <b>jika pada tabel mau menambahkan judul kolom :</b>
+  <ul type='disc'>
+  <li>manfaatin penyintingan HTML (diubah)</li>
+<li><td> diganti dengan <th><li>
+  </ul>
+
+  <b>jika pada tabel mau rata kiri kanan :</b>
+  <ul type='disc'>
+    <li>tambahkan <th align ="center"> atau</li>
+    <li>tambahkan <th style="text-align: center;"> (mode CSS)</li>
+  </ul>
